@@ -1,7 +1,11 @@
 package Temp
 
-import "log"
+import (
+	"log"
+	"github.com/quexer/utee"
+)
 
 func Println(str string) {
 	log.Println("print",str)
+	utee.Chk(nil)
 }
