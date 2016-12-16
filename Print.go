@@ -3,5 +3,5 @@ package Temp
 import "log"
 
 func Println(str string) {
-	log.Println(str)
+	log.Println("print",str)
 }
