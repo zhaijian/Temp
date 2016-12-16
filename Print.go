@@ -8,4 +8,5 @@ import (
 func Println(str string) {
 	log.Println("print",str)
 	utee.Chk(nil)
+	log.Println(utee.MongoNotFound(nil))
 }
